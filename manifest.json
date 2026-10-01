@@ -1,18 +1,18 @@
 {
   "firmware": {
-    "version": "1.2.3",
-    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.3.bin",
-    "sha256": "8ec0efca0b0433ca9f9779a0e8ae798509375de33ebf992ac95dfe835ce443ff",
-    "sig": "MEYCIQCUj48gIL85M1IOL3AXS5/lzXRfJloAA1z1yQVxI/xOAAIhAOURxkAhH9KpwE3DTwUQfA1+pQFS8uNI+9roHrt5PYGe",
-    "size": 906432,
-    "notes": "Kappaletta vaihdettaessa edellinen kansikuva pysyy näkyvissä myös silloin, kun uutta kantta vasta valmistellaan puhelimessa."
+    "version": "1.2.4",
+    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.4.bin",
+    "sha256": "88268ac3d7a0f6ea7cf4cd0f9cfce0016bd3b13a34890ad02ec3d2ac4fed482e",
+    "sig": "MEUCIQCx2wivZWrIK3FSBuX3yh/jPufl0cue801nfpgR/RTL2gIgFRkRuv0/wBV58cUSJl4I1nJLl7+HKOhrP+tn0Wkb2Kc=",
+    "size": 906576,
+    "notes": "Kappaleen vaihto ilman tyhjää välivaihetta: edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle. Keskeytynyt kansikuvan siirto korjautuu itsestään heti."
   },
   "app": {
-    "versionCode": 5,
-    "versionName": "1.2.2",
-    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.2.apk",
-    "sha256": "54cc96c810d7e2c7d36fdf4f67792d86e060d1558fd9cce725c11df8d5cd6948",
+    "versionCode": 6,
+    "versionName": "1.2.3",
+    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.3.apk",
+    "sha256": "14f9f459ccffccb0180ceed46ea85f28c8de2914e5f03e7dbb50dfea1f520e89",
     "size": 2111113,
-    "notes": "Kappaletta vaihdettaessa edellinen kansikuva pysyy näkyvissä myös silloin, kun uutta kantta vasta valmistellaan puhelimessa."
+    "notes": "Kappaleen vaihto ilman tyhjää välivaihetta: edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle. Keskeytynyt kansikuvan siirto korjautuu itsestään heti."
   }
 }
