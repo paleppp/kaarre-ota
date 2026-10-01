@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-10-01",
+    "notes": "Kappaletta vaihdettaessa edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle – ei enää tyhjää välivaihetta. Sovellus muistaa viimeisimmät kannet, joten edelliseen kappaleeseen palatessa kansi tulee heti.",
+    "firmware": "1.2.2",
+    "app": "1.2.1"
+  },
+  {
+    "date": "2026-10-01",
     "notes": "Kappaleen nimen varjo vahvemmaksi koko näytön kansikuvan päällä. Ensimmäinen langaton päivitys.",
     "firmware": "1.2.1"
   },

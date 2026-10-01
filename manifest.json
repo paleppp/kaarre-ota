@@ -1,18 +1,18 @@
 {
   "firmware": {
-    "version": "1.2.1",
-    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.1.bin",
-    "sha256": "a9c15418764d69026d0fb5cd23427a6cc9c684a81d27f385c8057f4cbfa06f4b",
-    "sig": "MEUCIQDrwlGwUoBZj/nTNuRNzBhWgTt/sOZqrSQ7IfIqku61pQIgbMJOy2zOPdu/AlktM06tYGaAd04A8YFuaFw1Fl2KOZw=",
-    "size": 905984,
-    "notes": "Kappaleen nimen varjo vahvemmaksi koko näytön kansikuvan päällä. Ensimmäinen langaton päivitys."
+    "version": "1.2.2",
+    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.2.bin",
+    "sha256": "99f4261f33fe37939b5a4ee54dec33727a657a4ae22d4d3ecdf7a3ef0526be67",
+    "sig": "MEUCIQCRz5v9xNL3XaIiHH9z6BTW+mB2CO+qvX2F4X3urp+ovgIgX5V5i11mwlTQl+lvDk9EYtD3t6APNKlt4IxvN9DkhHE=",
+    "size": 906416,
+    "notes": "Kappaletta vaihdettaessa edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle – ei enää tyhjää välivaihetta. Sovellus muistaa viimeisimmät kannet, joten edelliseen kappaleeseen palatessa kansi tulee heti."
   },
   "app": {
-    "versionCode": 3,
-    "versionName": "1.2.0",
-    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.0.apk",
-    "sha256": "5da9c41c8b6159f3e89d869dc4825e344033df0f74d970a373b9f54d51700365",
-    "size": 2111117,
-    "notes": "Ensimmäinen julkaisu: päivitykset sovelluksen kautta (OTA), koko näytön albumin kansikuva, GPS-nopeus ja tasaisesti laskeva etäisyys käännökseen, neljä kellotaulua, puhelut ja musiikin ohjaus näytöltä."
+    "versionCode": 4,
+    "versionName": "1.2.1",
+    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.1.apk",
+    "sha256": "ac7c2ce69ef3c1fe1c89c519c963b910244e96cd16df4bb7e792e3e336e39d7a",
+    "size": 2111113,
+    "notes": "Kappaletta vaihdettaessa edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle – ei enää tyhjää välivaihetta. Sovellus muistaa viimeisimmät kannet, joten edelliseen kappaleeseen palatessa kansi tulee heti."
   }
 }
