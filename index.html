@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaarre – lataukset</title>
+<meta name="description" content="Kaarre: Google Mapsin ajo-ohjeet pyöreälle näytölle moottoripyörän ohjaustankoon. Android-sovellus ja näytön päivitykset.">
+<link rel="icon" href="favicon.png">
+<meta name="theme-color" content="#0e0f12">
+<style>
+  :root {
+    --bg: #0e0f12; --surface: #16181d; --surface2: #1e2127; --line: #2a2e36;
+    --text: #f2f3f5; --muted: #9a9fa8; --accent: #ff8a00; --good: #34d16e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  header { display: flex; align-items: center; gap: 20px; margin-bottom: 36px; }
+  header img.icon { width: 88px; height: 88px; border-radius: 22px; box-shadow: 0 8px 40px rgba(255,138,0,.18); }
+  header .wm { height: 30px; display: block; margin-bottom: 8px; }
+  header p { margin: 0; color: var(--muted); }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .cards { grid-template-columns: 1fr; } header img.icon { width: 64px; height: 64px; } }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
+  .card h2 { margin: 0 0 4px; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .ver { font-size: 30px; font-weight: 700; letter-spacing: -.5px; margin: 6px 0 2px; }
+  .sub { color: var(--muted); font-size: 14px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 13px 20px; border-radius: 14px;
+    background: var(--accent); color: #1a0e00; font-weight: 700; text-decoration: none; }
+  .btn:hover { filter: brightness(1.08); }
+  .pill { display: inline-block; margin-top: 18px; padding: 8px 14px; border-radius: 999px;
+    background: rgba(52,209,110,.12); color: var(--good); font-weight: 600; font-size: 14px; }
+  section { margin-top: 36px; }
+  section h3 { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+  ol.steps { margin: 0; padding-left: 20px; color: #d6d8dc; }
+  ol.steps li { margin: 6px 0; }
+  ul.history { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); }
+  ul.history li { position: relative; padding: 0 0 18px 18px; }
+  ul.history li::before { content: ""; position: absolute; left: -6px; top: 7px; width: 10px; height: 10px;
+    border-radius: 50%; background: var(--accent); }
+  .when { font-size: 13px; color: var(--muted); }
+  .what { margin-top: 2px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  code { background: var(--surface2); padding: 1px 6px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img class="icon" src="icon.png" alt="">
+    <div>
+      <img class="wm" src="wordmark.png" alt="Kaarre">
+      <p>Google Mapsin ajo-ohjeet pyöreälle näytölle moottoripyörän ohjaustankoon.</p>
+    </div>
+  </header>
+
+  <div class="cards">
+    <div class="card">
+      <h2>Android-sovellus</h2>
+      <div class="ver">1.2.0</div>
+      <div class="sub">APK · 2.1 Mt</div>
+      <a class="btn" href="https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.0.apk">Lataa sovellus</a>
+    </div>
+    <div class="card">
+      <h2>Näytön laiteohjelmisto</h2>
+      <div class="ver">1.2.0</div>
+      <div class="sub">Allekirjoitettu · ECDSA P-256</div>
+      <span class="pill">Päivittyy sovelluksen kautta</span>
+    </div>
+  </div>
+
+  <section>
+    <h3>Asennus</h3>
+    <ol class="steps">
+      <li>Lataa sovellus puhelimella ja avaa tiedosto.</li>
+      <li>Salli tarvittaessa asennus tästä lähteestä (<em>Asenna tuntemattomia sovelluksia</em>).</li>
+      <li>Jos ilmoitusten käyttöoikeus on harmaana: <em>Asetukset → Sovellukset → Kaarre → ⋮ → Salli rajoitetut asetukset</em>.</li>
+      <li>Avaa Kaarre, käy läpi käyttöönotto ja yhdistä näyttö.</li>
+    </ol>
+    <p class="sub">Jatkossa sovellus tarkistaa päivitykset itse ja päivittää myös näytön Bluetoothin kautta.
+      Näyttö asentaa vain allekirjoitetun ohjelmiston ja palaa edelliseen versioon, jos uusi ei käynnisty.</p>
+  </section>
+
+  <section>
+    <h3>Muutokset</h3>
+    <ul class="history">
+<li><div class="when">2026-10-01 · Sovellus 1.2.0 · Näyttö 1.2.0</div><div class="what">Ensimmäinen julkaisu: päivitykset sovelluksen kautta (OTA), koko näytön albumin kansikuva, GPS-nopeus ja tasaisesti laskeva etäisyys käännökseen, neljä kellotaulua, puhelut ja musiikin ohjaus näytöltä.</div></li>
+    </ul>
+  </section>
+
+  <footer>Päivitetty 1.10.2026 · <code>manifest.json</code> sovelluksen päivityksille</footer>
+</main>
+</body>
+</html>

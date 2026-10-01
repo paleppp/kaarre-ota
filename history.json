@@ -1,0 +1,8 @@
+[
+  {
+    "date": "2026-10-01",
+    "notes": "Ensimmäinen julkaisu: päivitykset sovelluksen kautta (OTA), koko näytön albumin kansikuva, GPS-nopeus ja tasaisesti laskeva etäisyys käännökseen, neljä kellotaulua, puhelut ja musiikin ohjaus näytöltä.",
+    "firmware": "1.2.0",
+    "app": "1.2.0"
+  }
+]
