@@ -1,18 +1,18 @@
 {
   "firmware": {
-    "version": "1.2.4",
-    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.4.bin",
-    "sha256": "88268ac3d7a0f6ea7cf4cd0f9cfce0016bd3b13a34890ad02ec3d2ac4fed482e",
-    "sig": "MEUCIQCx2wivZWrIK3FSBuX3yh/jPufl0cue801nfpgR/RTL2gIgFRkRuv0/wBV58cUSJl4I1nJLl7+HKOhrP+tn0Wkb2Kc=",
-    "size": 906576,
-    "notes": "Kappaleen vaihto ilman tyhjää välivaihetta: edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle. Keskeytynyt kansikuvan siirto korjautuu itsestään heti."
+    "version": "1.2.9",
+    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.9.bin",
+    "sha256": "af750591a6f8f5623393fe4fa55ef7bcf97b1d547ec3235c8c71bb8fc956e55f",
+    "sig": "MEUCIQCJkoFrDC04UXaivativWKv4ato/CMHbvI/tb1RPr1ImAIgXwonbsiqq9z8mkJnEBPpwD0KoCazXA2X5agCP3wuzXY=",
+    "size": 977056,
+    "notes": "Uusi ulkoasu sovellukseen: etusivu ja asetukset omilla välilehdillään, avattavat asetusosiot, Nyt soi -kortti soittimen ohjaukseen ja laitteen nimen vaihto. Näytön voi kääntää mihin tahansa kulmaan pyöreällä säätimellä. Pehmeämmät reunat ja tarkemmat kansikuvat, selvästi nopeampi piirto ja korjattu kansikuvan lataus."
   },
   "app": {
-    "versionCode": 6,
-    "versionName": "1.2.3",
-    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.3.apk",
-    "sha256": "14f9f459ccffccb0180ceed46ea85f28c8de2914e5f03e7dbb50dfea1f520e89",
-    "size": 2111113,
-    "notes": "Kappaleen vaihto ilman tyhjää välivaihetta: edellinen kansikuva pysyy näkyvissä ja uusi pyyhkiytyy sen päälle. Keskeytynyt kansikuvan siirto korjautuu itsestään heti."
+    "versionCode": 11,
+    "versionName": "1.2.8",
+    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.8.apk",
+    "sha256": "1cf29336441b356f61dfb72dec1a48c52498845cca6f7178085bd22375678d63",
+    "size": 2567565,
+    "notes": "Uusi ulkoasu sovellukseen: etusivu ja asetukset omilla välilehdillään, avattavat asetusosiot, Nyt soi -kortti soittimen ohjaukseen ja laitteen nimen vaihto. Näytön voi kääntää mihin tahansa kulmaan pyöreällä säätimellä. Pehmeämmät reunat ja tarkemmat kansikuvat, selvästi nopeampi piirto ja korjattu kansikuvan lataus."
   }
 }
