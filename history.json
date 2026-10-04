@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-04",
+    "notes": "Etusivu varoittaa, jos puhelimen sijainti on pois päältä, sillä nopeus ja tasainen etäisyys tarvitsevat GPS:n. Avaa-painike vie suoraan sijaintiasetuksiin.",
+    "app": "1.2.12"
+  },
+  {
+    "date": "2026-10-04",
     "notes": "Korjattu sovelluksen päivitys: Päivitä-painike näkyy taas, kun uusi versio on saatavilla edellisen päivityksen jälkeen.",
     "app": "1.2.11"
   },
