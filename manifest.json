@@ -1,11 +1,11 @@
 {
   "firmware": {
-    "version": "1.2.9",
-    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.9.bin",
-    "sha256": "af750591a6f8f5623393fe4fa55ef7bcf97b1d547ec3235c8c71bb8fc956e55f",
-    "sig": "MEUCIQCJkoFrDC04UXaivativWKv4ato/CMHbvI/tb1RPr1ImAIgXwonbsiqq9z8mkJnEBPpwD0KoCazXA2X5agCP3wuzXY=",
-    "size": 977056,
-    "notes": "Uusi ulkoasu sovellukseen: etusivu ja asetukset omilla välilehdillään, avattavat asetusosiot, Nyt soi -kortti soittimen ohjaukseen ja laitteen nimen vaihto. Näytön voi kääntää mihin tahansa kulmaan pyöreällä säätimellä. Pehmeämmät reunat ja tarkemmat kansikuvat, selvästi nopeampi piirto ja korjattu kansikuvan lataus."
+    "version": "1.2.10",
+    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.10.bin",
+    "sha256": "a87a974c741277bdafbadbda648ce18e6f920534747f94b2012a21eb29ce8a68",
+    "sig": "MEYCIQDp8JNwEf2/gE+JjwHb/vdjjkzfI7vq0inXABo1Dc//ngIhAPoDI3cNl+vWZG/ZtOg+6l+HDjT5OULkTGuuA22LZ/Ad",
+    "size": 979024,
+    "notes": "Musiikkiohjaus navigoinnin aikana: pyyhkäise alas kääntymisnuolesta matkatietoihin ja siitä musiikkisivulle. Napauta vasenta reunaa edelliseen, keskeltä toisto/tauko ja oikeaa reunaa seuraavaan kappaleeseen. Seuraava käännös näkyy sivun yläreunassa, ja näyttö palaa nuoleen käännöksen lähestyessä. Lisäksi tyylikkäämpi kansikuvan vaihto ja korjattu vilkkuminen käännetyllä näytöllä."
   },
   "app": {
     "versionCode": 11,

@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-04",
+    "notes": "Musiikkiohjaus navigoinnin aikana: pyyhkäise alas kääntymisnuolesta matkatietoihin ja siitä musiikkisivulle. Napauta vasenta reunaa edelliseen, keskeltä toisto/tauko ja oikeaa reunaa seuraavaan kappaleeseen. Seuraava käännös näkyy sivun yläreunassa, ja näyttö palaa nuoleen käännöksen lähestyessä. Lisäksi tyylikkäämpi kansikuvan vaihto ja korjattu vilkkuminen käännetyllä näytöllä.",
+    "firmware": "1.2.10"
+  },
+  {
     "date": "2026-10-03",
     "notes": "Uusi ulkoasu sovellukseen: etusivu ja asetukset omilla välilehdillään, avattavat asetusosiot, Nyt soi -kortti soittimen ohjaukseen ja laitteen nimen vaihto. Näytön voi kääntää mihin tahansa kulmaan pyöreällä säätimellä. Pehmeämmät reunat ja tarkemmat kansikuvat, selvästi nopeampi piirto ja korjattu kansikuvan lataus.",
     "firmware": "1.2.9",
