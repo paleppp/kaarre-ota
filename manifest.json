@@ -8,11 +8,11 @@
     "notes": "Navigoinnin musiikkisivu pysyy auki niin kauan kuin musiikki soi. Käännöksen lähestyessä näyttö vaihtuu nuoleen ja palaa musiikkisivulle, kun käännös on tehty. Tauolla sivu palaa nuoleen 20 sekunnin jälkeen."
   },
   "app": {
-    "versionCode": 13,
-    "versionName": "1.2.10",
-    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.10.apk",
-    "sha256": "d805a5a6bdb2e3f2bf5073284792eda8bb51b7c47a2a5d34de368697913f1e40",
+    "versionCode": 14,
+    "versionName": "1.2.11",
+    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.11.apk",
+    "sha256": "1198c3dd652f4de970580ecebd2e810e774ca1d6149fda682f72b239194717ce",
     "size": 2567585,
-    "notes": "Korjattu GPS-nopeus: karkeat verkkopaikannukset eivät enää nollaa nopeutta. Etusivu muistuttaa, jos nopeus tarvitsee sijaintiluvan \"Salli aina\" toimiakseen taustalla. Lisäksi päivitysten korjaukset versiosta 1.2.9."
+    "notes": "Korjattu sovelluksen päivitys: Päivitä-painike näkyy taas, kun uusi versio on saatavilla edellisen päivityksen jälkeen."
   }
 }
