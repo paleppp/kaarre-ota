@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-04",
+    "notes": "Korjattu GPS-nopeus: karkeat verkkopaikannukset eivät enää nollaa nopeutta. Etusivu muistuttaa, jos nopeus tarvitsee sijaintiluvan \"Salli aina\" toimiakseen taustalla. Lisäksi päivitysten korjaukset versiosta 1.2.9.",
+    "app": "1.2.10"
+  },
+  {
+    "date": "2026-10-04",
     "notes": "Korjattu: uusi näytön päivitys ei näkynyt asennettavana, jos edellinen päivitys oli tehty samalla kertaa. Sovellus tarkistaa nyt päivitykset aina avattaessa (enintään 10 minuutin välein) ja heti näytön päivittymisen jälkeen.",
     "app": "1.2.9"
   },
