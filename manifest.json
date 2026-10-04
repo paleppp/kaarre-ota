@@ -8,11 +8,11 @@
     "notes": "Navigoinnin musiikkisivu pysyy auki niin kauan kuin musiikki soi. Käännöksen lähestyessä näyttö vaihtuu nuoleen ja palaa musiikkisivulle, kun käännös on tehty. Tauolla sivu palaa nuoleen 20 sekunnin jälkeen."
   },
   "app": {
-    "versionCode": 11,
-    "versionName": "1.2.8",
-    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.8.apk",
-    "sha256": "1cf29336441b356f61dfb72dec1a48c52498845cca6f7178085bd22375678d63",
+    "versionCode": 12,
+    "versionName": "1.2.9",
+    "url": "https://paleppp.github.io/kaarre-ota/app/kaarre-1.2.9.apk",
+    "sha256": "138c11258bd233ffd80abc563daaf0a21b8e92a8f309eebe44445314dfc6a1bf",
     "size": 2567565,
-    "notes": "Uusi ulkoasu sovellukseen: etusivu ja asetukset omilla välilehdillään, avattavat asetusosiot, Nyt soi -kortti soittimen ohjaukseen ja laitteen nimen vaihto. Näytön voi kääntää mihin tahansa kulmaan pyöreällä säätimellä. Pehmeämmät reunat ja tarkemmat kansikuvat, selvästi nopeampi piirto ja korjattu kansikuvan lataus."
+    "notes": "Korjattu: uusi näytön päivitys ei näkynyt asennettavana, jos edellinen päivitys oli tehty samalla kertaa. Sovellus tarkistaa nyt päivitykset aina avattaessa (enintään 10 minuutin välein) ja heti näytön päivittymisen jälkeen."
   }
 }

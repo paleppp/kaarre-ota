@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-04",
+    "notes": "Korjattu: uusi näytön päivitys ei näkynyt asennettavana, jos edellinen päivitys oli tehty samalla kertaa. Sovellus tarkistaa nyt päivitykset aina avattaessa (enintään 10 minuutin välein) ja heti näytön päivittymisen jälkeen.",
+    "app": "1.2.9"
+  },
+  {
+    "date": "2026-10-04",
     "notes": "Navigoinnin musiikkisivu pysyy auki niin kauan kuin musiikki soi. Käännöksen lähestyessä näyttö vaihtuu nuoleen ja palaa musiikkisivulle, kun käännös on tehty. Tauolla sivu palaa nuoleen 20 sekunnin jälkeen.",
     "firmware": "1.2.11"
   },
