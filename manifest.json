@@ -1,11 +1,11 @@
 {
   "firmware": {
-    "version": "1.2.10",
-    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.10.bin",
-    "sha256": "a87a974c741277bdafbadbda648ce18e6f920534747f94b2012a21eb29ce8a68",
-    "sig": "MEYCIQDp8JNwEf2/gE+JjwHb/vdjjkzfI7vq0inXABo1Dc//ngIhAPoDI3cNl+vWZG/ZtOg+6l+HDjT5OULkTGuuA22LZ/Ad",
-    "size": 979024,
-    "notes": "Musiikkiohjaus navigoinnin aikana: pyyhkäise alas kääntymisnuolesta matkatietoihin ja siitä musiikkisivulle. Napauta vasenta reunaa edelliseen, keskeltä toisto/tauko ja oikeaa reunaa seuraavaan kappaleeseen. Seuraava käännös näkyy sivun yläreunassa, ja näyttö palaa nuoleen käännöksen lähestyessä. Lisäksi tyylikkäämpi kansikuvan vaihto ja korjattu vilkkuminen käännetyllä näytöllä."
+    "version": "1.2.11",
+    "url": "https://paleppp.github.io/kaarre-ota/firmware/kaarre-1.2.11.bin",
+    "sha256": "8967bd9319290ee175b6397fd0ca1e57f957740b0599109a263b6f4134b04ece",
+    "sig": "MEYCIQCUSKrQsys6hOmrtqzXAhXK6OHmTzCw/q9XeUB8j0VHYgIhAO1bTAcadckZ4mXA3tOrCQIWeUZ99p7/IZLFiV2Y1s4x",
+    "size": 979216,
+    "notes": "Navigoinnin musiikkisivu pysyy auki niin kauan kuin musiikki soi. Käännöksen lähestyessä näyttö vaihtuu nuoleen ja palaa musiikkisivulle, kun käännös on tehty. Tauolla sivu palaa nuoleen 20 sekunnin jälkeen."
   },
   "app": {
     "versionCode": 11,

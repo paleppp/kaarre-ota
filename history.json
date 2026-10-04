@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-10-04",
+    "notes": "Navigoinnin musiikkisivu pysyy auki niin kauan kuin musiikki soi. Käännöksen lähestyessä näyttö vaihtuu nuoleen ja palaa musiikkisivulle, kun käännös on tehty. Tauolla sivu palaa nuoleen 20 sekunnin jälkeen.",
+    "firmware": "1.2.11"
+  },
+  {
+    "date": "2026-10-04",
     "notes": "Musiikkiohjaus navigoinnin aikana: pyyhkäise alas kääntymisnuolesta matkatietoihin ja siitä musiikkisivulle. Napauta vasenta reunaa edelliseen, keskeltä toisto/tauko ja oikeaa reunaa seuraavaan kappaleeseen. Seuraava käännös näkyy sivun yläreunassa, ja näyttö palaa nuoleen käännöksen lähestyessä. Lisäksi tyylikkäämpi kansikuvan vaihto ja korjattu vilkkuminen käännetyllä näytöllä.",
     "firmware": "1.2.10"
   },
